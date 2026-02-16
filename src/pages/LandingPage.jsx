@@ -97,7 +97,7 @@ function LandingPage() {
         <Row className="justify-content-center text-center">
           <Col md={10}>
             <img 
-              src="/images/profile.png" 
+              src={`${process.env.PUBLIC_URL}/images/profile.png`} 
               alt="Foto de perfil"
               style={profileImgStyle}
             />

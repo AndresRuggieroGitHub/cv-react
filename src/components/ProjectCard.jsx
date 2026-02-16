@@ -64,7 +64,7 @@ function ProjectCard({ title, description, image, link, tags }) {
         <div style={{ position: 'relative', overflow: 'hidden', height: '220px' }}>
           <Card.Img 
             variant="top" 
-            src={image} 
+            src={image.startsWith('http') ? image : `${process.env.PUBLIC_URL}${image.startsWith('/images') ? image : '/images/' + image}`} 
             style={{ 
               height: "100%", 
               objectFit: "cover",

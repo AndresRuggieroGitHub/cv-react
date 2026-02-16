@@ -39,7 +39,7 @@ function AppContent() {
 function App() {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <AppContent />
       </Router>
     </ThemeProvider>
