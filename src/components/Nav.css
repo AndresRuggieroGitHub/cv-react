@@ -1,0 +1,29 @@
+.nav-link-custom {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-link-custom::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.nav-link-custom:hover::after {
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-link-custom.active::after {
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+}

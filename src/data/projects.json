@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Android App: Arcadebits",
+    "description": "Aplicación Android desarrollada durante mis prácticas. Catálogo y venta de productos utilizando Firebase.",
+    "image": "/images/arcadebits.jpeg",
+    "link": "https://github.com/AndresRuggieroGitHub/arcadebits",
+    "tags": ["Android", "Firebase", "Kotlin"]
+  },
+  {
+    "title": "Java Swing: Taller Mecánico",
+    "description": "Sistema de gestión para taller mecánico desarrollado en Java con interfaz gráfica Swing.",
+    "image": "/images/taller.png",
+    "link": "https://github.com/AndresRuggieroGitHub/TallerMecanico",
+    "tags": ["Java", "Swing", "Desktop"]
+  },
+  {
+    "title": "Java Swing: Hotel",
+    "description": "Sistema de reserva de habitaciones desarrollado en Java con interfaz gráfica Swing.",
+    "image": "/images/swing.png",
+    "link": "https://github.com/AndresRuggieroGitHub/Swing_P02_compendio",
+    "tags": ["Java", "Swing", "Desktop"]
+  },
+  {
+    "title": "JavaFX App: Agenda de Contactos",
+    "description": "Aplicación de gestión de contactos desarrollada con Java 21, JavaFX y FXML utilizando Maven.",
+    "image": "/images/address_book.png",
+    "link": "https://github.com/AndresRuggieroGitHub/addressbook-javafx",
+    "tags": ["Java 21", "JavaFX", "Maven", "Desktop"]
+  },
+  {
+    "title": "Spring Boot: Clinica Veterinaria",
+    "description": "Aplicación basada en Spring Boot para la gestión de clínicas veterinarias.",
+    "image": "/images/spring.png",
+    "link": "https://github.com/AndresRuggieroGitHub/spring-petclinic",
+    "tags": ["Spring Boot", "Java", "Backend"]
+  }
+]
